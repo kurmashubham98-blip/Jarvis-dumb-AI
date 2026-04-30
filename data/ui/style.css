@@ -1,0 +1,278 @@
+/* 
+  Jarvis v2.0 Holographic HUD Styles
+  Theme: Deep space black, translucent glass plates, glowing cyan (#00d4ff)
+*/
+
+:root {
+    --core-cyan: #00d4ff;
+    --dark-cyan: #0066cc;
+    --navy-bg: #030816;
+    --glass-bg: rgba(3, 8, 22, 0.65);
+    --glass-border: rgba(0, 212, 255, 0.2);
+    --text-main: #e0faff;
+    --text-dim: #7a9cba;
+    
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none; /* Prevent accidental highlighting of the UI */
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    /* Completely transparent body to let pywebview render frameless */
+    background: transparent;
+    overflow: hidden;
+}
+
+.hud-container {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+    
+    background: var(--glass-bg);
+    backdrop-filter: blur(8px) saturate(150%);
+    -webkit-backdrop-filter: blur(8px);
+    
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.1),
+                inset 0 0 30px rgba(0, 212, 255, 0.05);
+                
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    /* Subtle pulsing effect on the border */
+    animation: borderPulse 4s infinite alternate ease-in-out;
+}
+
+@keyframes borderPulse {
+    0% { border-color: rgba(0, 212, 255, 0.1); box-shadow: 0 0 10px rgba(0,212,255,0.05); }
+    100% { border-color: rgba(0, 212, 255, 0.4); box-shadow: 0 0 25px rgba(0,212,255,0.2); }
+}
+
+/* Make header draggable via pywebview */
+.pywebview-drag-region {
+    -webkit-app-region: drag;
+}
+
+/* --- Header Section --- */
+.hud-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--glass-border);
+    background: linear-gradient(180deg, rgba(0, 212, 255, 0.08) 0%, transparent 100%);
+}
+
+.arc-reactor {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--core-cyan);
+    box-shadow: 0 0 10px var(--core-cyan), inset 0 0 10px var(--core-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    animation: spinSlowly 10s linear infinite;
+}
+
+.arc-reactor .core {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px #fff, 0 0 20px 8px var(--core-cyan);
+}
+
+@keyframes spinSlowly { 100% { transform: rotate(360deg); } }
+
+.header-titles h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--core-cyan);
+    letter-spacing: 3px;
+    text-shadow: 0 0 8px var(--core-cyan);
+}
+
+.version {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+}
+
+.status-bar {
+    font-size: 0.8rem;
+    color: #00ff88; /* Green for online */
+    text-shadow: 0 0 5px #00ff88;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.blinking-cursor {
+    animation: blink 1s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+.close-btn {
+    -webkit-app-region: no-drag;
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.close-btn:hover {
+    color: #ff3366;
+    text-shadow: 0 0 10px #ff3366;
+}
+
+/* --- Dialogue Box --- */
+.dialogue-box {
+    flex-grow: 1;
+    padding: 15px 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Custom scrollbar */
+.dialogue-box::-webkit-scrollbar { width: 4px; }
+.dialogue-box::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+.dialogue-box::-webkit-scrollbar-thumb { background: var(--core-cyan); border-radius: 2px; }
+
+.message {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    word-wrap: break-word;
+    animation: fadeIn 0.3s ease-out forwards;
+    border-left: 2px solid transparent;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.timestamp {
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    margin-right: 8px;
+}
+
+.message.user {
+    align-self: flex-end;
+    background: rgba(0, 102, 204, 0.15);
+    border-right: 2px solid var(--dark-cyan);
+    border-left: none;
+    color: var(--text-main);
+    max-width: 85%;
+    text-align: right;
+}
+
+.message.jarvis {
+    align-self: flex-start;
+    background: rgba(0, 212, 255, 0.05);
+    border-left: 2px solid var(--core-cyan);
+    color: var(--core-cyan);
+    max-width: 90%;
+    position: relative;
+}
+
+.message.system {
+    align-self: center;
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    font-style: italic;
+    background: transparent;
+}
+
+/* --- Visualizer Area --- */
+.visualizer {
+    height: 40px;
+    background: rgba(0,0,0,0.3);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+    position: relative;
+    overflow: hidden;
+}
+
+.audio-wave {
+    width: 100%;
+    height: 100%;
+    stroke: var(--core-cyan);
+    fill: none;
+    stroke-width: 1.5;
+}
+
+.wave-path {
+    stroke-dasharray: 100 200;
+    animation: waveMove 3s linear infinite;
+    opacity: 0.7;
+}
+.wave-path.offset {
+    stroke: var(--dark-cyan);
+    animation: waveMove 4s linear infinite reverse;
+    opacity: 0.4;
+}
+
+@keyframes waveMove {
+    to { stroke-dashoffset: -300; }
+}
+
+/* --- Input Area --- */
+.input-area {
+    padding: 15px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    border-radius: 4px;
+    padding: 8px 12px;
+    transition: all 0.2s;
+}
+
+.input-wrapper:focus-within {
+    border-color: var(--core-cyan);
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+}
+
+.prompt-arrow {
+    color: var(--core-cyan);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#user-input {
+    background: transparent;
+    border: none;
+    color: var(--text-main);
+    font-family: inherit;
+    font-size: 1rem;
+    flex-grow: 1;
+    outline: none;
+    -webkit-app-region: no-drag;
+}
+
+#user-input::placeholder {
+    color: var(--text-dim);
+}

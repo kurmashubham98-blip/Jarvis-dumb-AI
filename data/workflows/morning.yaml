@@ -1,0 +1,10 @@
+description: Starts the day
+steps:
+- action: os_control
+  type: volume
+  value: 40
+- action: browser
+  query: technology
+  type: search_news
+- action: speak
+  text: Good morning. I've prepared your daily tech briefing.

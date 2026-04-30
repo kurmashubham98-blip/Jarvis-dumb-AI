@@ -1,0 +1,50 @@
+# ============================================
+# JARVIS v2.0 — Dependencies
+# ============================================
+
+# --- Core LLM Providers (Cloud Only) ---
+google-generativeai>=0.8.0        # Gemini 2.5 Flash API
+groq>=0.11.0                       # Groq API (Llama + Whisper STT)
+
+# --- Voice System ---
+edge-tts>=6.1.0                    # Neural TTS (Microsoft Edge voices)
+sounddevice>=0.4.6                 # Audio I/O (mic + speaker)
+numpy>=1.24.0                      # Audio processing
+openwakeword>=0.6.0                # Wake word detection ("Hey Jarvis")
+
+# --- Memory System ---
+mempalace>=3.0.0                   # Long-term memory (MemPalace)
+chromadb>=0.4.0                    # Vector storage (MemPalace dependency)
+
+# --- Browser Control ---
+playwright>=1.40.0                 # Level 2+3 browser automation (DOM-level)
+websockets>=12.0                   # Extension bridge (WebSocket server)
+
+# --- GUI / HUD ---
+pywebview>=5.0                     # Desktop GUI (transparent HUD)
+
+# --- System Control ---
+psutil>=5.9.0                      # System monitoring
+pyautogui>=0.9.54                  # GUI automation
+pywin32>=306                       # Windows API hooks
+
+# --- Vision System ---
+mss>=9.0.0                         # Screen capture
+pytesseract>=0.3.10                # OCR text extraction
+Pillow>=10.0.0                     # Image processing
+opencv-python-headless>=4.8.0      # Image preprocessing
+
+# --- Internet Intelligence ---
+httpx>=0.27.0                      # Async HTTP client
+beautifulsoup4>=4.12.0             # HTML parsing
+duckduckgo-search>=6.0.0           # Web search (free, no API key)
+
+# --- Task Automation ---
+apscheduler>=3.10.0                # Scheduling engine
+
+# --- Security ---
+cryptography>=42.0.0               # AES/Fernet encryption
+
+# --- Config ---
+pyyaml>=6.0                        # YAML config files
+python-dotenv>=1.0.0               # Environment variables

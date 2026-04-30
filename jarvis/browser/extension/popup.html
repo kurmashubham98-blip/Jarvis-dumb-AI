@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 280px;
+      padding: 16px;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0a0e27;
+      color: #e0e0e0;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+    }
+    .logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #00d4ff 0%, #0066cc 70%, #003366 100%);
+      box-shadow: 0 0 12px rgba(0, 212, 255, 0.5);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 8px rgba(0, 212, 255, 0.4); }
+      50% { box-shadow: 0 0 20px rgba(0, 212, 255, 0.8); }
+    }
+    .title {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #00d4ff;
+      text-transform: uppercase;
+    }
+    .version {
+      font-size: 10px;
+      color: #5a6a8a;
+      margin-left: auto;
+    }
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+    .status.connected {
+      background: rgba(0, 255, 136, 0.1);
+      border: 1px solid rgba(0, 255, 136, 0.3);
+      color: #00ff88;
+    }
+    .status.disconnected {
+      background: rgba(255, 68, 68, 0.1);
+      border: 1px solid rgba(255, 68, 68, 0.3);
+      color: #ff4444;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+    .dot.green { background: #00ff88; box-shadow: 0 0 6px #00ff88; }
+    .dot.red { background: #ff4444; box-shadow: 0 0 6px #ff4444; }
+    .info {
+      font-size: 11px;
+      color: #8899bb;
+      line-height: 1.6;
+      padding: 8px;
+      background: rgba(255,255,255,0.03);
+      border-radius: 6px;
+    }
+    .info strong { color: #00d4ff; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo"></div>
+    <span class="title">Jarvis Eye</span>
+    <span class="version">v1.0</span>
+  </div>
+
+  <div id="status" class="status disconnected">
+    <div id="dot" class="dot red"></div>
+    <span id="statusText">Connecting to Jarvis...</span>
+  </div>
+
+  <div class="info">
+    <strong>What this does:</strong><br>
+    • Sends page context to Jarvis in real-time<br>
+    • Enables "Summarize this page" commands<br>
+    • Monitors tab activity for context awareness<br>
+    • All data stays local (localhost only)
+  </div>
+
+  <script>
+    // Check connection status
+    function checkConnection() {
+      try {
+        const ws = new WebSocket("ws://localhost:9741");
+        ws.onopen = () => {
+          document.getElementById("status").className = "status connected";
+          document.getElementById("dot").className = "dot green";
+          document.getElementById("statusText").textContent = "Connected to Jarvis";
+          ws.close();
+        };
+        ws.onerror = () => {
+          document.getElementById("status").className = "status disconnected";
+          document.getElementById("dot").className = "dot red";
+          document.getElementById("statusText").textContent = "Jarvis is not running";
+        };
+      } catch (e) {
+        document.getElementById("statusText").textContent = "Connection error";
+      }
+    }
+    checkConnection();
+  </script>
+</body>
+</html>

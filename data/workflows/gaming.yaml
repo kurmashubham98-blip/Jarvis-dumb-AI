@@ -1,0 +1,13 @@
+description: Optimizes system for gaming
+steps:
+- action: os_control
+  type: volume
+  value: 70
+- action: browser
+  type: close_all_tabs
+- action: close_app
+  target: chrome
+- action: launch_app
+  target: steam
+- action: speak
+  text: Gaming mode engaged. Background processes optimized.

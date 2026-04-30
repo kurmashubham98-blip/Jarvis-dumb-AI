@@ -1,0 +1,11 @@
+description: Sets up coding environment
+steps:
+- action: launch_app
+  target: vscode
+- action: browser
+  type: new_tab
+  url: https://stackoverflow.com
+- action: launch_app
+  target: terminal
+- action: speak
+  text: Development environment online, Sir.

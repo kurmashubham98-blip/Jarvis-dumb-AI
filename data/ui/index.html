@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis HUD</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Use a modern, technical font -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hud-container">
+        
+        <!-- Header -->
+        <div class="hud-header pywebview-drag-region">
+            <div class="arc-reactor">
+                <div class="core"></div>
+            </div>
+            <div class="header-titles">
+                <h1>J.A.R.V.I.S <span class="version">v2.0</span></h1>
+                <div class="status-bar">
+                    <span id="system-status" class="status-text">SYSTEM ONLINE</span>
+                    <span class="blinking-cursor">_</span>
+                </div>
+            </div>
+            <button class="close-btn" onclick="pywebview.api.js_close_window()">×</button>
+        </div>
+
+        <!-- Chat / Dialogue Stream -->
+        <div class="dialogue-box" id="dialogue-box">
+            <!-- Messages will be injected here via JS -->
+            <div class="message system">
+                <span class="timestamp">[SYS]</span> Awaiting input...
+            </div>
+        </div>
+
+        <!-- Visualizer Area -->
+        <div class="visualizer">
+            <svg viewBox="0 0 100 40" class="audio-wave">
+                <path d="M 0,20 Q 25,5 50,20 T 100,20" class="wave-path" />
+                <path d="M 0,20 Q 25,35 50,20 T 100,20" class="wave-path offset" />
+            </svg>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <div class="input-wrapper">
+                <span class="prompt-arrow">></span>
+                <input type="text" id="user-input" placeholder="Enter command..." autocomplete="off">
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

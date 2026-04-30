@@ -1,0 +1,2125 @@
+18:55:20 │ jarvis.main               │ INFO    │ Configuration loaded
+18:55:20 │ jarvis.llm                │ INFO    │ ✓ Gemini provider registered
+18:55:20 │ jarvis.llm                │ INFO    │ ✓ Groq provider registered
+18:55:20 │ jarvis.brain              │ INFO    │ Jarvis Brain initialized
+18:56:05 │ jarvis.brain              │ INFO    │ New conversation session started
+18:56:19 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+18:56:19 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+18:56:19 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+18:56:19 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+18:56:19 │ jarvis.llm                │ INFO    │ Trying Gemini...
+18:56:21 │ jarvis.llm                │ INFO    │ Gemini initialized: gemini-2.5-flash-preview-04-17
+18:56:21 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 404 models/gemini-2.5-flash-preview-04-17 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+18:56:21 │ jarvis.llm                │ INFO    │ Trying Groq...
+18:56:22 │ jarvis.llm                │ INFO    │ Groq initialized: llama-3.3-70b-versatile
+18:56:23 │ jarvis.brain              │ INFO    │ Brain response via Groq in 3.72s (258 chars)
+18:56:28 │ jarvis.voice.tts          │ ERROR   │ Audio playback failed: name 'np' is not defined
+18:56:53 │ jarvis.voice.tts          │ ERROR   │ Audio playback failed: name 'np' is not defined
+19:00:22 │ jarvis.main               │ INFO    │ Configuration loaded
+19:00:22 │ jarvis.llm                │ INFO    │ ✓ Gemini provider registered
+19:00:22 │ jarvis.llm                │ INFO    │ ✓ Groq provider registered
+19:00:22 │ jarvis.brain              │ INFO    │ Jarvis Brain initialized
+19:00:51 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:00:51 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:00:51 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:00:51 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:00:51 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:00:52 │ jarvis.llm                │ INFO    │ Gemini initialized: gemini-2.5-flash
+19:00:55 │ jarvis.brain              │ INFO    │ Brain response via Gemini in 3.69s (35 chars)
+19:01:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:18 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:01:20 │ jarvis.brain              │ INFO    │ Brain response via Gemini in 1.59s (122 chars)
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:01:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:01:35 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:01:38 │ jarvis.brain              │ INFO    │ Brain response via Gemini in 2.69s (65 chars)
+19:05:50 │ jarvis.main               │ INFO    │ Configuration loaded
+19:05:50 │ jarvis.llm                │ INFO    │ ✓ Gemini provider registered
+19:05:50 │ jarvis.llm                │ INFO    │ ✓ Groq provider registered
+19:05:50 │ jarvis.brain              │ INFO    │ Jarvis Brain initialized
+19:05:50 │ jarvis.system.workflows   │ INFO    │ Loaded 3 workflows
+19:05:50 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Coding
+19:05:50 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Research
+19:05:50 │ jarvis.browser            │ INFO    │ Found Brave at: C:\Users\LENOVO\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe
+19:05:50 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Automation
+19:05:50 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Browser
+19:06:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:06:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:06:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:06:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:06:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:06:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:06:18 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:06:19 │ jarvis.llm                │ INFO    │ Gemini initialized: gemini-2.5-flash
+19:06:31 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:06:32 │ jarvis.brain              │ INFO    │ Brain response via Gemini in 14.15s (40 chars)
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:07:02 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:07:02 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:07:20 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 34.543655197s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 34
+}
+]
+19:07:20 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:07:21 │ jarvis.llm                │ INFO    │ Groq initialized: llama-3.3-70b-versatile
+19:07:21 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'browser', 'action': 'play youtube video', 'confidence': 0.9}
+19:07:21 │ jarvis.agents.orchestrator │ INFO    │ Routing 'open brave and play babyboll b...' to Browser Agent
+19:07:21 │ jarvis.browser.agent      │ INFO    │ Browser agent received: open brave and play babyboll by dominc flik on yt music
+19:07:28 │ jarvis.browser            │ INFO    │ Browser launched successfully
+19:07:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:07:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:07:28 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:07:28 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash
+Please retry in 26.30850916s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 5
+}
+, retry_delay {
+  seconds: 26
+}
+]
+19:07:28 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:07:29 │ jarvis.browser.agent      │ INFO    │ Planned 2 browser actions
+19:07:30 │ jarvis.browser            │ INFO    │ Navigated to: https://music.youtube.com
+19:07:31 │ jarvis.browser.agent      │ INFO    │ Step 1 completed: Navigate to YouTube Music
+19:07:32 │ jarvis.browser            │ INFO    │ Navigated to: https://www.youtube.com
+19:07:38 │ jarvis.browser            │ INFO    │ Playing YouTube: babyboll by dominic flik
+19:07:38 │ jarvis.browser.agent      │ INFO    │ Step 2 completed: Play babyboll by dominic flik on YouTube Music
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:09:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:09:04 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:09:08 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'set preference', 'confidence': 0.8}
+19:09:08 │ jarvis.agents.orchestrator │ INFO    │ Routing 'great jarvis remember when I s...' to Automation Agent
+19:09:08 │ jarvis.agents.automation  │ INFO    │ Processing automation request: great jarvis remember when I s...
+19:09:08 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:09:08 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:09:08 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:09:10 │ jarvis.agents.automation  │ INFO    │ Mapped action: unknown
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:15 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:11:18 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'stop music playback', 'confidence': 1.0}
+19:11:18 │ jarvis.agents.orchestrator │ INFO    │ Routing 'stop the music...' to Automation Agent
+19:11:18 │ jarvis.agents.automation  │ INFO    │ Processing automation request: stop the music...
+19:11:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:18 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:18 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:11:23 │ jarvis.agents.automation  │ INFO    │ Mapped action: volume:mute
+19:11:23 │ jarvis.system.commander   │ INFO    │ Executing PS: $wshShell = new-object -com wscript.shell; $wshShe...
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:49 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:49 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:11:52 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 2.477356727s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 2
+}
+]
+19:11:52 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:11:53 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'pause music', 'confidence': 0.9}
+19:11:53 │ jarvis.agents.orchestrator │ INFO    │ Routing 'don't mute the system just pas...' to Automation Agent
+19:11:53 │ jarvis.agents.automation  │ INFO    │ Processing automation request: don't mute the system just pas...
+19:11:53 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:11:53 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:11:53 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:11:53 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 1.746603773s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 1
+}
+]
+19:11:53 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:11:53 │ jarvis.agents.automation  │ INFO    │ Mapped action: volume:pause
+19:11:53 │ jarvis.system.commander   │ INFO    │ Executing PS: 
+        Function Set-Volume {
+            Param (...
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:46 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:12:47 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 8.114961662s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 8
+}
+]
+19:12:47 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:12:47 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'control music playback', 'confidence': 0.9}
+19:12:47 │ jarvis.agents.orchestrator │ INFO    │ Routing 'stop the music on brave ...' to Automation Agent
+19:12:47 │ jarvis.agents.automation  │ INFO    │ Processing automation request: stop the music on brave ...
+19:12:47 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:47 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:47 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:12:47 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 7.350635228s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 7
+}
+]
+19:12:47 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:12:48 │ jarvis.agents.automation  │ INFO    │ Mapped action: volume:mute
+19:12:48 │ jarvis.system.commander   │ INFO    │ Executing PS: $wshShell = new-object -com wscript.shell; $wshShe...
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:12:56 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 58.634080454s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 58
+}
+]
+19:12:56 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:12:56 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'adjust volume settings', 'confidence': 0.9}
+19:12:56 │ jarvis.agents.orchestrator │ INFO    │ Routing 'don't mute the system ...' to Automation Agent
+19:12:56 │ jarvis.agents.automation  │ INFO    │ Processing automation request: don't mute the system ...
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:12:56 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:12:56 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:12:57 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 57.918774775s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 57
+}
+]
+19:12:57 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:12:57 │ jarvis.agents.automation  │ INFO    │ Mapped action: volume:unmute
+19:12:57 │ jarvis.system.commander   │ INFO    │ Executing PS: 
+        Function Set-Volume {
+            Param (...
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:15 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:13:16 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 39.179022636s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 39
+}
+]
+19:13:16 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:13:16 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'browser', 'action': 'play media on youtube', 'confidence': 0.8}
+19:13:16 │ jarvis.agents.orchestrator │ INFO    │ Routing 'play the song...' to Browser Agent
+19:13:16 │ jarvis.browser.agent      │ INFO    │ Browser agent received: play the song
+19:13:16 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:16 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:16 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:13:16 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 38.476577679s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 38
+}
+]
+19:13:16 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:13:17 │ jarvis.browser.agent      │ INFO    │ Planned 1 browser actions
+19:13:19 │ jarvis.browser            │ INFO    │ Navigated to: https://www.youtube.com
+19:13:24 │ jarvis.browser            │ INFO    │ Playing YouTube: I Wanna Be Yours
+19:13:24 │ jarvis.browser.agent      │ INFO    │ Step 1 completed: Play the song I Wanna Be Yours on YouTube
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:13:59 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:13:59 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:13:59 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 55.352728262s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 55
+}
+]
+19:13:59 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:14:00 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:14:00 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 54.613019454s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 54
+}
+]
+19:14:00 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:14:00 │ jarvis.brain              │ INFO    │ Brain response via Groq in 1.64s (167 chars)
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:27 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:27 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:15:28 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 27.18101697s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 27
+}
+]
+19:15:28 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:15:28 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'browser', 'action': 'play a song on youtube', 'confidence': 0.8}
+19:15:28 │ jarvis.agents.orchestrator │ INFO    │ Routing 'change the song to something m...' to Browser Agent
+19:15:28 │ jarvis.browser.agent      │ INFO    │ Browser agent received: change the song to something more romactic like champakali
+19:15:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:15:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:15:28 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:15:28 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 26.509205618s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 26
+}
+]
+19:15:28 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:15:29 │ jarvis.browser.agent      │ INFO    │ Planned 1 browser actions
+19:15:31 │ jarvis.browser            │ INFO    │ Navigated to: https://www.youtube.com
+19:15:36 │ jarvis.browser            │ INFO    │ Playing YouTube: champakali
+19:15:36 │ jarvis.browser.agent      │ INFO    │ Step 1 completed: Play champakali on YouTube
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:37 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:37 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:17:37 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 17.420325563s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 17
+}
+]
+19:17:37 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:17:38 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'browser', 'action': 'open website', 'confidence': 0.9}
+19:17:38 │ jarvis.agents.orchestrator │ INFO    │ Routing 'ok now in new tab open the sit...' to Browser Agent
+19:17:38 │ jarvis.browser.agent      │ INFO    │ Browser agent received: ok now in new tab open the site for downloading the game named hitman
+19:17:38 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:38 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:38 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:17:38 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 16.726621045s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 16
+}
+]
+19:17:38 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:17:39 │ jarvis.browser.agent      │ INFO    │ Planned 2 browser actions
+19:17:39 │ jarvis.browser            │ INFO    │ New tab #2 opened
+19:17:39 │ jarvis.browser.agent      │ INFO    │ Step 1 completed: Open a new tab
+19:17:41 │ jarvis.browser            │ INFO    │ Navigated to: https://www.google.com/search?q=hitman+game+download
+19:17:42 │ jarvis.browser.agent      │ INFO    │ Step 2 completed: Search Google for Hitman game download site
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:17:58 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:17:58 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:17:59 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 55.909108156s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 55
+}
+]
+19:17:59 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:17:59 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:17:59 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 55.265743433s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 55
+}
+]
+19:17:59 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:18:00 │ jarvis.brain              │ INFO    │ Brain response via Groq in 1.43s (188 chars)
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:13 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:18:13 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 41.716721975s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 41
+}
+]
+19:18:13 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:18:13 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:18:14 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 41.069405288s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 41
+}
+]
+19:18:14 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:18:14 │ jarvis.brain              │ INFO    │ Brain response via Groq in 1.34s (157 chars)
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:43 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:43 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:18:44 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 11.250950928s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 11
+}
+]
+19:18:44 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:18:44 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'browser', 'action': 'open new tab and search', 'confidence': 0.9}
+19:18:44 │ jarvis.agents.orchestrator │ INFO    │ Routing 'search on new tab fitgirlrepac...' to Browser Agent
+19:18:44 │ jarvis.browser.agent      │ INFO    │ Browser agent received: search on new tab fitgirlrepack and search in there hitman
+19:18:44 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\LENOVO...: bad escape \U at position 2
+19:18:44 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\Users\\[^\\\s]+...: bad escape \U at position 2
+19:18:44 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:18:44 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 10.463000206s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 10
+}
+]
+19:18:44 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:18:45 │ jarvis.browser.agent      │ INFO    │ Planned 3 browser actions
+19:18:45 │ jarvis.browser            │ INFO    │ Navigated to: https://www.google.com
+19:18:45 │ jarvis.browser            │ INFO    │ New tab #3 opened → https://www.google.com
+19:18:45 │ jarvis.browser.agent      │ INFO    │ Step 1 completed: Open a new tab with Google
+19:19:15 │ jarvis.browser            │ ERROR   │ Type+Enter failed: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name=q]")
+
+19:19:15 │ jarvis.browser.agent      │ INFO    │ Step 2 completed: Search for fitgirlrepack on Google
+19:19:20 │ jarvis.browser            │ ERROR   │ Click link failed for 'hitman': Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for get_by_role("link", name="hitman").first
+
+19:19:21 │ jarvis.browser.agent      │ INFO    │ Step 3 completed: Click on the hitman link in the search results
+19:26:53 │ jarvis.main               │ INFO    │ Configuration loaded
+19:26:53 │ jarvis.llm                │ INFO    │ ✓ Gemini provider registered
+19:26:53 │ jarvis.llm                │ INFO    │ ✓ Groq provider registered
+19:26:53 │ jarvis.brain              │ INFO    │ Jarvis Brain initialized
+19:26:53 │ jarvis.system.workflows   │ INFO    │ Loaded 3 workflows
+19:26:53 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Coding
+19:26:53 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Research
+19:26:53 │ jarvis.browser            │ INFO    │ Found Brave at: C:\Users\LENOVO\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe
+19:26:53 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Automation
+19:26:53 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Browser
+19:27:09 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:09 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:09 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:09 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:09 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:09 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:09 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:27:11 │ jarvis.llm                │ INFO    │ Gemini initialized: gemini-2.5-flash
+19:27:12 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 42.764153168s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 42
+}
+]
+19:27:12 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:27:13 │ jarvis.llm                │ INFO    │ Groq initialized: llama-3.3-70b-versatile
+19:27:13 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'play music', 'confidence': 0.9}
+19:27:13 │ jarvis.agents.orchestrator │ INFO    │ Routing 'hey jarivs play some music...' to Automation Agent
+19:27:13 │ jarvis.agents.automation  │ INFO    │ Processing automation request: hey jarivs play some music...
+19:27:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:13 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:13 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:27:13 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 41.354735657s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 41
+}
+]
+19:27:13 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:27:14 │ jarvis.agents.automation  │ INFO    │ Mapped action: launch_app:music
+19:27:14 │ jarvis.system.commander   │ INFO    │ Executing PS: start music
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:30 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:27:30 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 24.612585584s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 24
+}
+]
+19:27:30 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:27:30 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:27:31 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 23.901086597s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 23
+}
+]
+19:27:31 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:27:31 │ jarvis.brain              │ INFO    │ Brain response via Groq in 1.58s (159 chars)
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:27:46 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:27:46 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:27:47 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 8.031878185s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 8
+}
+]
+19:27:47 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:27:47 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:27:47 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 7.342940736s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 7
+}
+]
+19:27:47 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:27:48 │ jarvis.brain              │ INFO    │ Brain response via Groq in 1.48s (180 chars)
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:04 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:04 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:28:04 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 50.772311525s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 50
+}
+]
+19:28:04 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:28:04 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:28:05 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 50.002854655s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 50
+}
+]
+19:28:05 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:28:05 │ jarvis.brain              │ INFO    │ Brain response via Groq in 1.42s (159 chars)
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:25 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:25 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:28:26 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 29.148187188s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 29
+}
+]
+19:28:26 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:28:26 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'browser', 'action': 'open youtube and play babydoll music', 'confidence': 0.9}
+19:28:26 │ jarvis.agents.orchestrator │ INFO    │ Routing 'babydoll on youtube music...' to Browser Agent
+19:28:26 │ jarvis.browser.agent      │ INFO    │ Browser agent received: babydoll on youtube music
+19:28:30 │ jarvis.browser            │ INFO    │ Browser launched successfully
+19:28:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:28:30 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:28:30 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:28:30 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 24.522920206s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 24
+}
+]
+19:28:30 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:28:31 │ jarvis.browser.agent      │ INFO    │ Planned 1 browser actions
+19:28:34 │ jarvis.browser            │ INFO    │ Navigated to: https://www.youtube.com
+19:28:40 │ jarvis.browser            │ INFO    │ Playing YouTube: babydoll
+19:28:40 │ jarvis.browser.agent      │ INFO    │ Step 1 completed: Search and play babydoll on YouTube
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:07 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:07 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:29:08 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 46.882462813s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+19:29:08 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:29:08 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'code', 'action': 'assist with coding', 'confidence': 0.9}
+19:29:08 │ jarvis.agents.orchestrator │ INFO    │ Routing 'now let's do some coding for y...' to Coding Agent
+19:29:08 │ jarvis.agents.coding      │ INFO    │ Processing coding request: now let's do some coding for y...
+19:29:08 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:29:08 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:29:08 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:29:09 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 46.162351926s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+19:29:09 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:28 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:28 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:31:29 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 26.025850178s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 26
+}
+]
+19:31:29 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:31:29 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'create folder', 'confidence': 0.9}
+19:31:29 │ jarvis.agents.orchestrator │ INFO    │ Routing 'make a folder on d drive calle...' to Automation Agent
+19:31:29 │ jarvis.agents.automation  │ INFO    │ Processing automation request: make a folder on d drive calle...
+19:31:29 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:31:29 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:31:29 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:31:29 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 25.382890869s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 25
+}
+]
+19:31:29 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:31:30 │ jarvis.agents.automation  │ INFO    │ Mapped action: workflow:createfolder
+19:31:30 │ jarvis.agents.orchestrator │ ERROR   │ Agent Automation failed: too many values to unpack (expected 2)
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:15 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:15 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:32:16 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 39.09763384s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 39
+}
+]
+19:32:16 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:32:16 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'stop music', 'confidence': 0.9}
+19:32:16 │ jarvis.agents.orchestrator │ INFO    │ Routing 'ok for now stop the music...' to Automation Agent
+19:32:16 │ jarvis.agents.automation  │ INFO    │ Processing automation request: ok for now stop the music...
+19:32:16 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:16 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:16 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:32:16 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 38.429482996s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 38
+}
+]
+19:32:16 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:32:17 │ jarvis.agents.automation  │ INFO    │ Mapped action: volume:mute
+19:32:17 │ jarvis.system.commander   │ INFO    │ Executing PS: $wshShell = new-object -com wscript.shell; $wshShe...
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:34 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:34 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:32:35 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 19.87109538s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 19
+}
+]
+19:32:35 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:32:35 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'automation', 'action': 'pause music', 'confidence': 0.9}
+19:32:35 │ jarvis.agents.orchestrator │ INFO    │ Routing 'no don't mute the system just ...' to Automation Agent
+19:32:35 │ jarvis.agents.automation  │ INFO    │ Processing automation request: no don't mute the system just ...
+19:32:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\LENOVO...: bad escape \U at position 2
+19:32:35 │ jarvis.security           │ WARNING │ Regex error with pattern [A-Za-z]:\\\\Users\\\\[^\\\s]+...: bad escape \U at position 2
+19:32:35 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:32:36 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 19.150568305s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 19
+}
+]
+19:32:36 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:32:36 │ jarvis.agents.automation  │ INFO    │ Mapped action: workflow:pause_brave_music
+19:32:36 │ jarvis.agents.orchestrator │ ERROR   │ Agent Automation failed: too many values to unpack (expected 2)
+19:39:30 │ jarvis.main               │ INFO    │ Configuration loaded
+19:39:30 │ jarvis.llm                │ INFO    │ ✓ Gemini provider registered
+19:39:30 │ jarvis.llm                │ INFO    │ ✓ Groq provider registered
+19:39:30 │ jarvis.brain              │ INFO    │ Jarvis Brain initialized
+19:39:30 │ jarvis.system.workflows   │ INFO    │ Loaded 3 workflows
+19:39:30 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Coding
+19:39:30 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Research
+19:39:30 │ jarvis.browser            │ INFO    │ Found Brave at: C:\Users\LENOVO\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe
+19:39:30 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Automation
+19:39:30 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Browser
+19:40:12 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:40:13 │ jarvis.llm                │ INFO    │ Gemini initialized: gemini-2.5-flash
+19:40:14 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 40.639708437s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 40
+}
+]
+19:40:14 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:40:15 │ jarvis.llm                │ INFO    │ Groq initialized: llama-3.3-70b-versatile
+19:40:15 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'browser', 'action': 'play youtube reels', 'confidence': 0.8}
+19:40:15 │ jarvis.agents.orchestrator │ INFO    │ Routing 'play some reels...' to Browser Agent
+19:40:15 │ jarvis.browser.agent      │ INFO    │ Browser agent received: play some reels
+19:40:16 │ jarvis.browser            │ INFO    │ Browser launched successfully
+19:40:16 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:40:16 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 38.373814939s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 38
+}
+]
+19:40:16 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:40:17 │ jarvis.browser.agent      │ INFO    │ Planned 1 browser actions
+19:40:18 │ jarvis.browser            │ INFO    │ Navigated to: https://www.youtube.com
+19:40:24 │ jarvis.browser            │ INFO    │ Playing YouTube: reels
+19:40:24 │ jarvis.browser.agent      │ INFO    │ Step 1 completed: Play some reels on YouTube
+19:40:39 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:40:39 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 15.435698565s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 15
+}
+]
+19:40:39 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:40:40 │ jarvis.brain              │ INFO    │ Routing intent: {'type': 'browser', 'action': 'open instagram', 'confidence': 0.8}
+19:40:40 │ jarvis.agents.orchestrator │ INFO    │ Routing 'play some reels on instagram d...' to Browser Agent
+19:40:40 │ jarvis.browser.agent      │ INFO    │ Browser agent received: play some reels on instagram dumbohh
+19:40:40 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:40:40 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 14.661514549s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 14
+}
+]
+19:40:40 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:40:41 │ jarvis.browser.agent      │ INFO    │ Planned 4 browser actions
+19:40:42 │ jarvis.browser            │ INFO    │ Navigated to: https://www.instagram.com/
+19:40:42 │ jarvis.browser            │ INFO    │ New tab #2 opened → https://www.instagram.com/
+19:40:42 │ jarvis.browser.agent      │ INFO    │ Step 1 completed: Open Instagram in a new tab
+19:40:47 │ jarvis.browser            │ ERROR   │ Click text failed for 'Reels': Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for get_by_text("Reels").first
+
+19:40:47 │ jarvis.browser.agent      │ INFO    │ Step 2 completed: Click on Reels
+19:40:52 │ jarvis.browser            │ ERROR   │ Click text failed for 'dumbohh': Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for get_by_text("dumbohh").first
+
+19:40:53 │ jarvis.browser.agent      │ INFO    │ Step 3 completed: Click on dumbohh's Reels
+19:40:58 │ jarvis.browser            │ ERROR   │ Click link failed for 'Watch': Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for get_by_role("link", name="Watch").first
+
+19:40:59 │ jarvis.browser.agent      │ INFO    │ Step 4 completed: Click on a Reel to play
+19:42:03 │ jarvis.main               │ INFO    │ Configuration loaded
+19:42:03 │ jarvis.llm                │ INFO    │ ✓ Gemini provider registered
+19:42:03 │ jarvis.llm                │ INFO    │ ✓ Groq provider registered
+19:42:03 │ jarvis.brain              │ INFO    │ Jarvis Brain initialized
+19:42:03 │ jarvis.system.workflows   │ INFO    │ Loaded 3 workflows
+19:42:03 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Coding
+19:42:03 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Research
+19:42:03 │ jarvis.browser            │ INFO    │ Found Brave at: C:\Users\LENOVO\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe
+19:42:03 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Automation
+19:42:03 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Browser
+19:47:06 │ jarvis.main               │ INFO    │ Configuration loaded
+19:47:06 │ jarvis.llm                │ INFO    │ ✓ Gemini provider registered
+19:47:06 │ jarvis.llm                │ INFO    │ ✓ Groq provider registered
+19:47:06 │ jarvis.brain              │ INFO    │ Jarvis Brain initialized
+19:47:06 │ jarvis.system.workflows   │ INFO    │ Loaded 3 workflows
+19:47:06 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Coding
+19:47:06 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Research
+19:47:06 │ jarvis.browser            │ INFO    │ Found Brave at: C:\Users\LENOVO\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe
+19:47:06 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Automation
+19:47:06 │ jarvis.agents.orchestrator │ INFO    │ Registered agent: Browser
+19:47:21 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:47:22 │ jarvis.llm                │ INFO    │ Gemini initialized: gemini-2.5-flash
+19:47:23 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 32.019224363s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 32
+}
+]
+19:47:23 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:47:23 │ jarvis.llm                │ INFO    │ Groq initialized: llama-3.3-70b-versatile
+19:47:24 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:47:24 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 30.686185933s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 30
+}
+]
+19:47:24 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:47:24 │ jarvis.brain              │ INFO    │ Brain response via Groq in 3.51s (124 chars)
+19:47:36 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:47:37 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 18.086732101s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 18
+}
+]
+19:47:37 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:47:37 │ jarvis.llm                │ INFO    │ Trying Gemini...
+19:47:37 │ jarvis.llm                │ WARNING │ Gemini rate limited: Gemini rate limited: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 17.423108609s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 17
+}
+]
+19:47:37 │ jarvis.llm                │ INFO    │ Trying Groq...
+19:47:38 │ jarvis.brain              │ INFO    │ Brain response via Groq in 1.60s (254 chars)
